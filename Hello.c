@@ -55,16 +55,12 @@ main( )
 	{	
 		/* Output a byte of lows to the data lines */
 		out8( data_handle, LOW );
-		//printf( "Low\n" );
-		//nanospin_ns(330000);
 		nanospin_ns(442000);
 	
 
 		/* Output a byte of highs to the data lines */
 		out8( data_handle, HIGH );
 		nanospin_ns(442000);
-		//printf( "High\n" );
-		//nanospin_ns(330000);
 	
 	}
 
